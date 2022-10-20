@@ -7,3 +7,4 @@ class PostAdmin(admin.ModelAdmin):
   list_display=('slug','published_at')
 
 admin.site.register(Post,PostAdmin)
+admin.site.register(Comment)
